@@ -1,0 +1,85 @@
+﻿@using RealEstate.Web.Models.User.Profile
+@model UpdateProfileViewModel
+<!-- jQuery -->
+
+<section>
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-lg-3 col-md-4">
+				@Html.Partial("UserMenuPartial" , new RealEstate.Web.Models.Header.UserMenuViewModel{FullName=Model.FullName,Phone=Model.Phone})
+			</div>
+			<div class="col-lg-9 col-md-8">
+				<div class="dashboard-wraper">
+					<!-- Basic Information -->
+					<form asp-action="profilim" asp-controller="kullanici" method="post">
+						@Html.HiddenFor(x=> x.Id)
+						<div class="form-submit">
+							<h4>Hesabım</h4>
+							<div class="submit-section">
+								<div class="form-row">
+
+									<div class="form-group col-md-6">
+										<label>Adınız Soyadınız</label>
+										@Html.TextBoxFor(x => x.FullName, new { @class = "form-control", required = "", placeholder = "Adınızı giriniz" })
+										<span asp-validation-for="FullName" class="text-danger"></span>
+									</div>
+
+									<div class="form-group col-md-6">
+										<label>Telefon</label>
+										@Html.TextBoxFor(x => x.Phone, new { @class = "form-control", required = "" ,type="number", placeholder = "Telefon numaranızı giriniz" })
+
+										<span asp-validation-for="Phone" class="text-danger"></span>
+									</div>
+
+									<div class="form-group col-md-6">
+										<label>Email</label>
+										@Html.TextBoxFor(x => x.Email, new { @class = "form-control", required = "", placeholder = "Email adresinizi giriniz" })
+										<span asp-validation-for="Email" class="text-danger"></span>
+									</div>
+									<div class="form-group col-md-6">
+										<label>Parola</label>
+										@Html.TextBoxFor(x => x.Password, new { @class = "form-control", required = "", type="password", placeholder = "*********" })
+										<span asp-validation-for="Password" class="text-danger"></span>
+									</div>
+
+									@* 	<div class="form-group col-md-6">
+									<label>Açık Adres</label>
+									<input type="text" class="form-control" value="522, Arizona, Canada">
+									</div>
+
+									<div class="form-group col-md-6">
+									<label>City</label>
+									<input type="text" class="form-control" value="Montquebe">
+									</div>
+
+									<div class="form-group col-md-6">
+									<label>State</label>
+									<input type="text" class="form-control" value="Canada">
+									</div>
+
+									<div class="form-group col-md-6">
+									<label>Zip</label>
+									<input type="text" class="form-control" value="160052">
+									</div>
+
+									<div class="form-group col-md-12">
+									<label>About</label>
+									<textarea class="form-control">Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper</textarea>
+									</div> *@
+
+								</div>
+							</div>
+						</div>
+						<div class="form-group col-lg-12 col-md-12">
+							<button class="btn btn-theme" type="submit">Kaydet</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+

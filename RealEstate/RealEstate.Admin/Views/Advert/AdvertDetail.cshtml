@@ -1,0 +1,124 @@
+﻿@using RealEstate.Services.Domains.Adverts.Models
+@model AllAdvertsResponseModel
+<div class="dashboard-page-content" data-animated-id="1">
+
+	<div class="row mb-9 align-items-center justify-content-between">
+
+		<div class="col-sm-6 mb-8 mb-sm-0">
+			<h2 class="fs-4 mb-0">İlan İşlemleri</h2>
+			<p class="mb-0">İlan Detayı</p>
+		</div>
+	</div>
+
+
+	<div class="card rounded-4">
+		<header class="card-header bg-transparent p-7">
+			<div class="row align-items-center">
+				<div class="col-md-6 mb-lg-0 mb-6">
+					<span class="d-inline-block"><i class="far fa-calendar me-3"></i>İlan Oluştrulma Tarihi:@Model.CreatedDate </span>
+					<br>
+					<small class="text-muted">Son Güncelleme Tarihi: @Model.ModifiedDate</small>
+				</div>
+			</div>
+		</header>
+
+		<div class="card-body p-7">
+			<div class="row mb-8 mt-4 order-info-wrap">
+				<div class="col-md-4 mb-md-0 mb-7">
+					<div class="d-flex flex-nowrap">
+						<div class="icon-wrap">
+							<span class="rounded-circle px-6 py-5 bg-green-light me-6 text-green d-inline-block">
+								<i class="fas fa-user px-1"></i>
+							</span>
+						</div>
+						<div class="media-body">
+							<h6 class="mb-4">İlan Sahibi:</h6>
+							<p class="mb-4">
+								@Model.UserFullName <br>
+								@Model.UserPhone <br>
+							</p>
+							<a href="/kullanici/kullaniciDetay/@Model.UserId" class="btn-link-custom">Profile Git</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 mb-md-0 mb-7">
+					<div class="d-flex flex-nowrap">
+						<div class="icon-wrap">
+							<span class="rounded-circle p-5 bg-green-light me-6 text-green d-inline-block">
+								<i class="fas fa-truck px-2"></i>
+							</span>
+						</div>
+						<div class="media-body">
+							<h6 class="mb-4">Adres Bilgisi</h6>
+							<p class="mb-4">
+								Adress:@Model.Adress <br>
+								İl:@Model.County <br>
+								İlçe:@Model.Town
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="d-flex flex-nowrap">
+						<div class="icon-wrap">
+							<span class="rounded-circle p-5 bg-green-light me-6 text-green d-inline-block">
+								<i class="fas fa-truck px-2"></i>
+							</span>
+						</div>
+						<div class="media-body">
+							<h6 class="mb-4">Tarihler</h6>
+							<p class="mb-4">
+								Oluşturulma Tarihi:@Model.CreatedDate<br>
+								Son Güncellenme Tarihi:@Model.ModifiedDate <br>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="card rounded-4 p-7 mb-7">
+						<h5 class="card-title fs-6 mb-6">ilan fotoğrafları</h5>
+						<div class="card-body p-0">
+							<img class="img-fluid w-100 loaded" src="~/assets/images/background/img_1.jpg" />
+						</div>
+					</div>
+				</div>
+					
+				<div class="col-lg-4 offset-lg-1">
+					<div class="box shadow-sm bg-body-tertiary p-6">
+						<h6 class="mb-6">İlan Özellikleri</h6>
+						<div>
+							<p class="mb-0">
+								Başlık: @Model.Title <br>
+								Fiyatı: @Model.Price <br>
+								MetreKare: @Model.Area <br>
+								Oda Sayısı: @Model.Rooms <br>
+								Bulunduğu Kat: @Model.Floor <br>
+							</p>
+
+						</div>
+					</div>
+					<br />
+					<div class="box shadow-sm bg-body-tertiary p-6">
+						<h6 class="mb-6">İlan Detaylı Açıklama</h6>
+						<div>
+							<p class="mb-0">
+							 @Model.Description <br>
+							
+							</p>
+
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,36 @@
+﻿@using RealEstate.Web.Models.Auth
+@model LoginViewModel
+<div class="modal-body">
+	<h4 class="modal-header-title">Giriş Yap</h4>
+	<div class="login-form">
+		<form asp-action="Login" asp-controller="User" method="post">
+
+			<div class="form-group">
+				<label>Email</label>
+				<div class="input-with-icon">
+					@Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "abcde@gmail.com"})
+					<i class="ti-user"></i>
+				</div>
+				<span asp-validation-for="Email" class="text-danger"></span>
+			</div>
+
+			<div class="form-group">
+				<label>Parola</label>
+				<div class="input-with-icon">
+					@Html.TextBoxFor(x => x.Password, new { @class = "form-control",type="password", placeholder = "*******"})
+					<i class="ti-unlock"></i>
+				</div>
+				<span asp-validation-for="Password" class="text-danger"></span>
+			</div>
+
+			<div class="form-group">
+				<button type="submit" class="btn btn-md full-width pop-login">Giriş Yap</button>
+			</div>
+
+		</form>
+	</div>
+	<div class="text-center">
+		<p class="mt-5"><a href="/kullanici/sifremiUnuttum" class="link">Şifreni mi unuttun?</a></p>
+	</div>
+</div>
+

@@ -1,0 +1,48 @@
+﻿@using RealEstate.Admin.Models.User
+@model CreateUserViewModel
+<form href="/kullanici/kullaniciOlustur" method="post">
+<div class="row mb-9 align-items-center">
+		<div class="col-xxl-12">
+			<div class="row">
+				<div class="col-sm-6 mb-8 mb-sm-0">
+					<h2 class="fs-4 mb-0">Yeni Kullanıcı Oluştur</h2>
+				</div>
+				<div class="col-sm-6 d-flex flex-wrap justify-content-sm-end">
+					<button class="btn btn-primary" type="submit">
+						Kayıt Ekle
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xxl-12">
+			<div class="card mb-8 rounded-4">
+				<div class="card-body p-7">
+					<div class="mb-8">
+						<label for="product_title" class="mb-4 fs-13px ls-1 fw-semibold text-uppercase">Adı Soyadı</label>
+						@Html.TextBoxFor(x=> x.FullName, new{@class="form-control",placeholder="Adı soyadı giriniz.",required=""})
+					</div>
+					<div class="row">
+						<div class="col-md-4 mb-3">
+							<label for="product_sku" class="mb-4 fs-13px ls-1 fw-semibold text-uppercase">Email</label>
+						@Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "Email giriniz.", required = "" })
+
+						</div>
+						<div class="col-md-4 mb-3">
+							<label for="product_color" class="mb-4 fs-13px ls-1 fw-semibold text-uppercase">Telefon</label>
+						@Html.TextBoxFor(x => x.Phone, new { @class = "form-control", placeholder = "Telefon giriniz.", required = "" })
+
+						</div>
+						<div class="col-md-4 mb-3">
+							<label for="product_size" class="mb-4 fs-13px ls-1 fw-semibold text-uppercase">Parola</label>
+						@Html.TextBoxFor(x => x.Password, new { @class = "form-control", placeholder = "parola giriniz.", required = "" })
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>

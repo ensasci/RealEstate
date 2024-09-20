@@ -1,0 +1,84 @@
+﻿@using RealEstate.Admin.Models.Advert
+@model AdvertListViewModel
+<div class="row mb-9 align-items-center justify-content-between">
+	<div class="col-sm-6 mb-8 mb-sm-0">
+		<h2 class="fs-4 mb-0">Kullanıcı Yönetimi</h2>
+		<p class="mb-0">Kullanıcı Listesi.</p>
+	</div>
+</div>
+
+<div class="card mb-4 rounded-4 p-7">
+	<div class="card-body p-0">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card-body px-0 pt-7 pb-0">
+					<div class="table-responsive">
+						<table id="userList" class="display">
+							<thead>
+								<tr>
+									<th>İlan No</th>
+									<th>Adı Soyadı</th>
+									<th>Telefon</th>
+									<th>Adres</th>
+									<th>Durumu</th>
+									<th>Aksiyon</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model.Adverts)
+								{
+									<tr>
+
+										<td>@item.Id</td>
+										<td>@item.UserFullName</td>
+										<td>@item.UserPhone</td>
+										<td>@item.Adress</td>
+										@if (item.ApproveStatus == RealEstate.Services.EntityFramework.Entities.ApproveStatus.Pending)
+										{
+											<td>
+												<span class="badge rounded-lg badge-soft-warning border-0 text-capitalize fs-12">Onay Bekliyor</span>
+											</td>
+										}
+										@if (item.ApproveStatus == RealEstate.Services.EntityFramework.Entities.ApproveStatus.Active)
+										{
+											<td>
+												<span class="badge rounded-lg badge-soft-success border-0 text-capitalize fs-12">Aktif</span>
+											</td>
+										}
+										@if (item.ApproveStatus == RealEstate.Services.EntityFramework.Entities.ApproveStatus.Inactive)
+										{
+											<td>
+												<span class="badge rounded-lg badge-soft-warning border-0 text-capitalize fs-12">Onaylanmadı.</span>
+											</td>
+										}
+										@if(item.ApproveStatus == RealEstate.Services.EntityFramework.Entities.ApproveStatus.Pasif)
+										{
+											<td>
+												<span class="badge rounded-lg badge-soft-danger border-0 text-capitalize fs-12">Pasif</span>
+											</td>
+										}
+										<td class="text-center py-0 align-middle">
+											<div class="dropdown no-caret">
+												<a href="#" data-bs-toggle="dropdown" class="dropdown-toggle btn btn-outline-primary btn-xs hover-white btn-hover-bg-primary py-4 px-5">
+													<i class="far fa-ellipsis-h"></i>
+												</a>
+												<div class="dropdown-menu dropdown-menu-end m-0">
+													<a class="dropdown-item" href="/ilan/ilandetayi/@item.Id">Detayı Görüntüle</a>
+													<a class="dropdown-item" href="/ilan/ilanGuncelle/@item.Id/1 ">Onayla</a>
+													<a class="dropdown-item text-danger" href="/ilan/ilanGuncelle/@item.Id/2">Sil</a>
+												</div>
+											</div>
+										</td>
+									</tr>
+								}
+							</tbody>
+						</table>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>

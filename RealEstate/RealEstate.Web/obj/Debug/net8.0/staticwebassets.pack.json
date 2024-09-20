@@ -1,0 +1,913 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstate.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RealEstate.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\colors.css",
+      "PackagePath": "staticwebassets\\assets\\css\\colors.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\LineIcons.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\LineIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\LineIcons.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\LineIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\LineIcons.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\LineIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\LineIcons.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\LineIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\summernote.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\summernote.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\summernote.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\img\\close.png",
+      "PackagePath": "staticwebassets\\assets\\css\\img\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\img\\lightbox-next.png",
+      "PackagePath": "staticwebassets\\assets\\css\\img\\lightbox-next.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\img\\lightbox-prev.png",
+      "PackagePath": "staticwebassets\\assets\\css\\img\\lightbox-prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\css\\img\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\animation.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\animation.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\dropzone.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\icofont.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\icofont.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\light-box.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\light-box.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\line-icon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\line-icon.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\select2.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\slick-theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\slick-theme.less",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\slick.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick.scss"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\plugins\\themify.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\themify.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-BoldItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-BoldItalic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-Demi.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-Demi.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-DemiItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-DemiItalic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-Heavy.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-Heavy.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-HeavyItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-HeavyItalic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-Italic.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-Italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-Light.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-LightItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-LightItalic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-Medium.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-MediumItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-MediumItalic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-Thin.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-Thin.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-ThinItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-ThinItalic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-UltraLight.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-UltraLight.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\AvenirNextCyr-UltraLightIt.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AvenirNextCyr-UltraLightIt.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\LineIcons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\LineIcons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\LineIcons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\LineIcons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\summernote.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\summernote.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\summernote.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\404.png",
+      "PackagePath": "staticwebassets\\assets\\img\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\area.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\area.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\avatar-large-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar-large-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\bath.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\bath.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\bed.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\bed.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\city.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\city.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\close.png",
+      "PackagePath": "staticwebassets\\assets\\img\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\couple.png",
+      "PackagePath": "staticwebassets\\assets\\img\\couple.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\floor.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\floor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\landing-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\landing-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\lightbox-next.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lightbox-next.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\lightbox-prev.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lightbox-prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-default-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-default-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-default.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-default.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-goodgreen-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-goodgreen-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-goodgreen.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-goodgreen.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-green-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-green-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-green.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-green.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-purple-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-purple-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-purple.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-purple.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-red-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-red-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo-red.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-red.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\marker.png",
+      "PackagePath": "staticwebassets\\assets\\img\\marker.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\pattern.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\sa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sa.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\sb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sb.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\sc.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sc.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\type.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\type.svg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\img\\vec-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\vec-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\dropzone-amd-module.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dropzone-amd-module.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\dropzone.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\imagesloaded.js",
+      "PackagePath": "staticwebassets\\assets\\js\\imagesloaded.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\map.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\map_infobox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map_infobox.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\markerclusterer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\markerclusterer.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\rangeslider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\rangeslider.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\slick.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\assets\\js\\slider-bg.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slider-bg.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\img\\img_1.jpg",
+      "PackagePath": "staticwebassets\\img\\img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\img\\img_3.jpg",
+      "PackagePath": "staticwebassets\\img\\img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Enes\\Desktop\\Projects\\RealEstate\\RealEstate.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RealEstate.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RealEstate.Web.props",
+      "PackagePath": "build\\RealEstate.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RealEstate.Web.props",
+      "PackagePath": "buildMultiTargeting\\RealEstate.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RealEstate.Web.props",
+      "PackagePath": "buildTransitive\\RealEstate.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

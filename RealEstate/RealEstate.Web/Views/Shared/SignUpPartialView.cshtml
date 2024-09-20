@@ -1,0 +1,58 @@
+﻿@using RealEstate.Web.Models.Auth
+@model SignUpViewModel
+<div class="modal-content" id="sign-up">
+	<span class="mod-close" data-dismiss="modal" aria-hidden="true"><i class="ti-close"></i></span>
+	<div class="modal-body">
+		<h4 class="modal-header-title">Kayıt Olun!</h4>
+		<div class="login-form">
+			<form asp-action="kayit" asp-controller="kullanici" method="post">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div class="form-group">
+							<div class="input-with-icon">
+								@Html.TextBoxFor(x => x.FullName, new { @class = "form-control", placeholder = "Adınızı ve Soyadınızı girin" })
+								<i class="ti-user"></i>
+							</div>
+							<span asp-validation-for="FullName" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="form-group">
+							<div class="input-with-icon">
+								@Html.TextBoxFor(x => x.Phone, new { @class = "form-control", type="number", placeholder = "Telefon numaranızı girin" })
+								<i class="lni-phone-handset"></i>
+							</div>
+							<span asp-validation-for="Phone" class="text-danger"></span>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6">
+						<div class="form-group">
+							<div class="input-with-icon">
+								@Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "abcde@gmail.com" })
+								<i class="ti-email"></i>
+							</div>
+							<span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6">
+						<div class="form-group">
+							<div class="input-with-icon">
+								@Html.TextBoxFor(x => x.Password, new { @class = "form-control", type="password", placeholder = "***********" })
+								<i class="ti-unlock"></i>
+							</div>
+							<span asp-validation-for="Password" class="text-danger"></span>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-md full-width pop-login">Kayıt Ol</button>
+				</div>
+			</form>
+		</div>
+		<div class="text-center">
+			<p class="mt-5"><i class="ti-user mr-1"></i>Hesabınız varmı o halde? <a href="#" data-dismiss="modal" aria-hidden="true" data-toggle="modal" data-target="#login" class="link">Giriş Yapın</a></p>
+		</div>
+	</div>
+</div>

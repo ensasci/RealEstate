@@ -1,0 +1,208 @@
+﻿@using RealEstate.Services.Domains.Adverts.Models
+@model AllAdvertsResponseModel
+@{
+	ViewData["Title"] = "İlan Detayı";
+}
+<section class="gray">
+				<div class="container">
+					<div class="row">
+						
+						<!-- property main detail -->
+						<div class="col-lg-8 col-md-12 col-sm-12">
+							
+							<div class="slide-property-first mb-4">
+								<div class="pr-price-into">
+									<h3>@Model.Title </h3>
+									<span><i class="lni-map-marker"></i> @Model.Adress @Model.Town, @Model.County </span>
+								</div>
+							</div>
+
+				<div class="property3-slide single-advance-property mb-4">
+					<div class="slider-for slick-initialized slick-slider">
+						<div aria-live="polite" class="slick-list draggable" style="height: 529px;">
+							<div class="slick-track" role="listbox" style="opacity: 1; width: 6160px;">
+								<a href="~/img/img_1.jpg" class="item-slick slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide30" style="width: 770px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;">
+									<img src="~/img/img_1.jpg" alt="Alt">
+								</a>
+								<a href="~/img/img_1." class="item-slick slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide31" style="width: 770px; position: relative; left: -770px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;">
+									<img src="~/img/img_1.jpg alt="Alt">
+								</a>
+								<a href="~/img/img_1.jpg" class="item-slick slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide32" style="width: 770px; position: relative; left: -1540px; top: 0px; z-index: 999; opacity: 1;">
+									<img src="~/img/img_1.jpg" alt="Alt">
+								</a>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+							<!-- Single Block Wrap -->
+							<div class="block-wrap">
+								
+								<div class="block-header">
+									<h4 class="block-title">İlan Özellikleri</h4>
+								</div>
+								
+								<div class="block-body">
+									<ul class="dw-proprty-info">
+										<li><strong>Oda Sayısı</strong>@Model.Rooms</li>
+										<li><strong>Bulunduğu Kat</strong>@Model.Floor</li>
+										<li><strong>Metre Kare</strong>@Model.Area</li>
+										<li><strong>Fiyat</strong>@Model.Price</li>
+										<li><strong>Oluşturulma tarihi</strong>@Model.CreatedDate</li>
+										<li><strong>Son Güncelleme</strong>@Model.ModifiedDate</li>
+										<li><strong>İl</strong>@Model.County</li>
+										<li><strong>İlçe</strong>@Model.Town</li>
+									</ul>
+								</div>
+								
+							</div>
+							
+							<!-- Single Block Wrap -->
+							<div class="block-wrap">
+								
+								<div class="block-header">
+									<h4 class="block-title">Detaylı Açıklama</h4>
+								</div>
+								
+								<div class="block-body">
+									<p>
+										@Model.Description
+										</p>
+								</div>
+								
+							</div>
+						
+						</div>
+						
+						<!-- property Sidebar -->
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="page-sidebar">
+								
+								<!-- slide-property-sec -->
+								<div class="slide-property-sec mb-4">
+									<div class="pr-all-info">
+										
+										<div class="pr-single-info">
+											<a href="/ilanlar/favoriyeEkle/@Model.Id/@Model.UserId" class="like-bitt add-to-favorite" data-toggle="tooltip" data-original-title="Add To Favorites"><i class="lni-heart-filled"></i></a>
+										</div>
+										
+									</div>
+								</div>
+								
+								<!-- Agent Detail -->
+								<div class="agent-widget">
+									<div class="agent-title">
+										<div class="agent-photo"><img src="https://via.placeholder.com/400x400" alt=""></div>
+										<div class="agent-details">
+											<h4>@Model.UserFullName</h4>
+											<span><i class="lni-phone-handset"></i>@Model.UserPhone</span>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Your Email">
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Your Phone">
+									</div>
+									<div class="form-group">
+										<textarea class="form-control">mail rabbit mq ile yollanabilir.</textarea>
+									</div>
+									<button class="btn btn-theme full-width">Mesaj Yolla</button>
+								</div>
+								
+								<!-- Find New Property -->
+								<!-- Featured Property -->
+								<div class="sidebar-widgets">
+									
+									<h4>Aynı  ildeki ilanlar gelebilir</h4>
+									
+									<div class="sidebar_featured_property">
+										
+										<!-- List Sibar Property -->
+										<div class="sides_list_property">
+											<div class="sides_list_property_thumb">
+									<img src="~/img/img_1.jpg" class="img-fluid" alt="">
+											</div>
+											<div class="sides_list_property_detail">
+												<h4><a href="#">Loss vengel New Apartment</a></h4>
+												<span><i class="ti-location-pin"></i>Sans Fransico</span>
+												<div class="lists_property_price">
+													<div class="lists_property_types">
+														<div class="property_types_vlix sale">For Sale</div>
+													</div>
+													<div class="lists_property_price_value">
+														<h4>$4,240</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!-- List Sibar Property -->
+										<div class="sides_list_property">
+											<div class="sides_list_property_thumb">
+									<img src="~/img/img_1.jpg" class="img-fluid" alt="">
+											</div>
+											<div class="sides_list_property_detail">
+												<h4><a href="#">Montreal Quriqe Apartment</a></h4>
+												<span><i class="ti-location-pin"></i>Liverpool, London</span>
+												<div class="lists_property_price">
+													<div class="lists_property_types">
+														<div class="property_types_vlix">For Rent</div>
+													</div>
+													<div class="lists_property_price_value">
+														<h4>$7,380</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!-- List Sibar Property -->
+										<div class="sides_list_property">
+											<div class="sides_list_property_thumb">
+									<img src="~/img/img_1.jpg" class="img-fluid" alt="">
+											</div>
+											<div class="sides_list_property_detail">
+												<h4><a href="#">Curmic Studio For Office</a></h4>
+												<span><i class="ti-location-pin"></i>Montreal, Canada</span>
+												<div class="lists_property_price">
+													<div class="lists_property_types">
+														<div class="property_types_vlix buy">For Buy</div>
+													</div>
+													<div class="lists_property_price_value">
+														<h4>$8,730</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!-- List Sibar Property -->
+										<div class="sides_list_property">
+											<div class="sides_list_property_thumb">
+									<img src="~/img/img_1.jpg" class="img-fluid" alt="">
+											</div>
+											<div class="sides_list_property_detail">
+												<h4><a href="#">Montreal Quebec City</a></h4>
+												<span><i class="ti-location-pin"></i>Sreek View, New York</span>
+												<div class="lists_property_price">
+													<div class="lists_property_types">
+														<div class="property_types_vlix">For Rent</div>
+													</div>
+													<div class="lists_property_price_value">
+														<h4>$6,240</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+									
+								</div>
+							
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>

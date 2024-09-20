@@ -1,0 +1,287 @@
+﻿@*
+@{
+	var login = new RealEstate.Web.Models.Auth.LoginViewModel();
+} *@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>Evpower - Elektrik</title>
+
+	<!-- Custom CSS -->
+	<link href="~/assets/css/styles.css" rel="stylesheet">
+
+	<!-- Custom Color Option -->
+	<link href="~/assets/css/colors.css" rel="stylesheet">
+
+</head>
+
+<body class="default-skin">
+	<!-- ============================================================== -->
+	<!-- Preloader - style you can find in spinners.css -->
+	<!-- ============================================================== -->
+@* 	<div id="preloader"><div class="preloader"><span></span><span></span></div></div> *@
+
+	<!-- ============================================================== -->
+	<!-- Main wrapper - style you can find in pages.scss -->
+	<!-- ============================================================== -->
+	<div id="main-wrapper">
+
+		<!-- ============================================================== -->
+		<!-- Top header  -->
+		<!-- ============================================================== -->
+		<!-- Start Navigation -->
+		<div class="top-header">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-6 col-md-6">
+						<div class="cn-info">
+							<ul>
+								<li><i class="lni-phone-handset"></i>91 256 584 5748</li>
+								<li><i class="ti-email"></i>destek@evpower.com</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<ul class="top-social">
+							<li><a href="#"><i class="lni-facebook"></i></a></li>
+							<li><a href="#"><i class="lni-linkedin"></i></a></li>
+							<li><a href="#"><i class="lni-instagram"></i></a></li>
+							<li><a href="#"><i class="lni-twitter"></i></a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="header header-light">
+			<div class="container">
+				<nav id="navigation" class="navigation navigation-landscape">
+					<div class="nav-header">
+						<a class="nav-brand" href="/">
+							<img src="https://www.evpower.com.tr/img/logo.png" class="logo" alt="" />
+						</a>
+						<div class="nav-toggle"></div>
+					</div>
+					<div class="nav-menus-wrapper" id="header" style="transition-property: none;">
+					
+							@Html.Partial("_HeaderPartialView", new RealEstate.Web.Models.Header.HeaderViewModel())
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- End Navigation -->
+		<div class="clearfix"></div>
+		<!-- ============================================================== -->
+		<!-- Top header  -->
+		<!-- ============================================================== -->
+
+		<div>
+			@RenderBody()
+		</div>
+		<footer class="dark-footer skin-dark-footer">
+			<div>
+				<div class="container">
+					<div class="row">
+
+						<div class="col-lg-3 col-md-3">
+							<div class="footer-widget">
+								<img src="https://www.evpower.com.tr/img/logo.png" class="img-footer" alt="" />
+								<div class="footer-add">
+									<p>İstiklal mahallesi cevher sok no24 İstanbul / Ümraniye.</p>
+									<p>+1 246-345-0695</p>
+									<p>info@example.com</p>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2">
+							<div class="footer-widget">
+								<h4 class="widget-title">Kurumsal</h4>
+								<ul class="footer-menu">
+									<li><a href="#">Hakkımızda</a></li>
+									<li><a href="#">Sürdürebiilirlik</a></li>
+									<li><a href="#">İnsan Kaynakları</a></li>
+									<li><a href="#">İletişim</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-2 col-md-2">
+							<div class="footer-widget">
+								<h4 class="widget-title">Hizmetlerimiz</h4>
+								<ul class="footer-menu">
+									<li><a href="#">Doping</a></li>
+									<li><a href="#">Param Güvende</a></li>
+									<li><a href="#">Güvenli E-Ticaret</a></li>
+									<li><a href="#">Reklam</a></li>
+									<li><a href="#">Mobil</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-2 col-md-2">
+							<div class="footer-widget">
+								<h4 class="widget-title">Gizlilik ve Kullanım</h4>
+								<ul class="footer-menu">
+									<li><a href="#">Güvenkli Alışverişin İpuçları</a></li>
+									<li><a href="#">Sözleşmeler ve kurallar</a></li>
+									<li><a href="#">Hesap Sözleşmesi</a></li>
+									<li><a href="#">Kullanım Koşulları</a></li>
+									<li><a href="#">Çerez Yönetimi</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3">
+							<div class="footer-widget">
+								<h4 class="widget-title">Uygulamayı İndirin</h4>
+								<a href="#" class="other-store-link">
+									<div class="other-store-app">
+										<div class="os-app-icon">
+											<i class="lni-playstore theme-cl"></i>
+										</div>
+										<div class="os-app-caps">
+											Google Play
+											<span>Şimdi yükle</span>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="other-store-link">
+									<div class="other-store-app">
+										<div class="os-app-icon">
+											<i class="lni-apple theme-cl"></i>
+										</div>
+										<div class="os-app-caps">
+											App Store
+											<span>Şimdi yükle</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<div class="col-lg-6 col-md-6">
+							<p class="mb-0">© 2024 Designd By <a href="https://themezhub.com">Evpower</a> Tüm hakları saklıdır.</p>
+						</div>
+
+						<div class="col-lg-6 col-md-6 text-right">
+							<ul class="footer-bottom-social">
+								<li><a href="#"><i class="ti-facebook"></i></a></li>
+								<li><a href="#"><i class="ti-twitter"></i></a></li>
+								<li><a href="#"><i class="ti-instagram"></i></a></li>
+								<li><a href="#"><i class="ti-linkedin"></i></a></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+		<!-- ============================ Footer End ================================== -->
+		<!-- Log In Modal -->
+		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="registermodal" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
+				<div class="modal-content" id="registermodal">
+					<span class="mod-close" data-dismiss="modal" aria-hidden="true"><i class="ti-close"></i></span>
+					@Html.Partial("LoginPartialView", new RealEstate.Web.Models.Auth.LoginViewModel())
+				</div>
+			</div>
+
+
+		</div>
+		<!-- End Modal -->
+		<!-- Sign Up Modal -->
+		<div class="modal fade signup" id="signup" tabindex="-1" role="dialog" aria-labelledby="sign-up" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
+				@Html.Partial("SignUpPartialView", new RealEstate.Web.Models.Auth.SignUpViewModel())
+			</div>
+		</div>
+		<!-- End Modal -->
+
+		<a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+
+
+	</div>
+	<!-- ============================================================== -->
+	<!-- End Wrapper -->
+	<!-- ============================================================== -->
+	<!-- ============================================================== -->
+	<!-- All Jquery -->
+	<!-- ============================================================== -->
+	
+
+	<script src="~/assets/js/jquery.min.js"></script>
+	<script src="~/assets/js/popper.min.js"></script>
+	<script src="~/assets/js/bootstrap.min.js"></script>
+	<script src="~/assets/js/rangeslider.js"></script>
+	<script src="~/assets/js/select2.min.js"></script>
+	<script src="~/assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="~/assets/js/slick.js"></script>
+	<script src="~/assets/js/slider-bg.js"></script>
+	<script src="~/assets/js/lightbox.js"></script>
+	<script src="~/assets/js/imagesloaded.js"></script>
+	<script src="~/assets/js/custom.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/localization/messages_tr.min.js"></script>
+
+	<script src="~/assets/js/dropzone.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await Component.InvokeAsync("Notyf")
+	@RenderSection("Scripts", required: false)
+	<!-- ============================================================== -->
+	<!-- This page plugins -->
+	<!-- ============================================================== -->
+
+</body>
+<script>
+	$.ajax({
+		url: '/Home/PartialMenu',
+		type: 'GET',
+		success: function (data) {
+			$('#header').html(data);
+			console.log('Veri alındı:', data);
+		},
+		error: function (xhr, status, error) {
+			console.error('Hata:', status, error);
+		}
+	});
+</script>
+<script>
+	$(document).ready(function () {
+		$('#CountyList').change(function () {
+			var countyId = $(this).val(); 
+			$.ajax({
+				url: '/Home/GetTown', 
+				type: 'GET',
+				data: { countyId: countyId }, 
+				success: function (data) {
+					console.log(data)
+					var $townList = $('#TownList');
+					$townList.empty(); 
+					$townList.append($('<option>').text('Adres Seçiniz').attr('value', ''));
+					$.each(data, function (i, item) {
+						console.log(item); 
+						$('#TownList').append($('<option>').text(item.text).attr('value', item.value));
+					});
+				}
+			});
+		});
+	});
+</script>
+</html> 

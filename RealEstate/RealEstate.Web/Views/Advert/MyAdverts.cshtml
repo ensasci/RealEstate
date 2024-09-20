@@ -1,0 +1,56 @@
+﻿@using RealEstate.Services.Domains.Adverts.Models
+@model List<AllAdvertsResponseModel>
+<section>
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-lg-3 col-md-4">
+				@Html.Partial("UserMenuPartial", new RealEstate.Web.Models.Header.UserMenuViewModel { })
+			</div>
+
+			<div class="col-lg-9 col-md-8">
+				<div class="dashboard-wraper">
+					<!-- Bookmark Property -->
+					<div class="form-submit">
+						<h4>İlanlarım</h4>
+					</div>
+					<div class="row">
+						<!-- Single Property -->
+						@foreach (var item in Model)
+						{
+							<div class="col-md-12 col-sm-12 col-md-12">
+								<div class="singles-dashboard-list">
+									<div class="sd-list-left">
+										<img src="~/img/img_1.jpg" class="img-fluid" alt="">
+									</div>
+									<div class="sd-list-right">
+										<h4 class="listing_dashboard_title"><a href="/ilanlar/ilanDetay/@item.Id" class="theme-cl">@item.Title</a></h4>
+									@* 	
+										@if (item.ApproveStatus==RealEstate.Services.EntityFramework.Entities.ApproveStatus.Pending)
+										{
+											
+										} *@
+										<div class="user_dashboard_listed">
+											Onay Durumu: @item.ApproveStatus
+										</div>
+										<div class="user_dashboard_listed">
+											Fiyat: @item.Price
+										</div>
+										<div class="user_dashboard_listed">
+											<p>Açık adres:@item.Adress İl:@item.County ilçe:@item.Town </p>
+										</div>
+										<div class="action">
+											<a href="/ilanlar/ilanolustur/@item.Id" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><i class="ti-pencil"></i></a>
+											<a href="/ilanlar/ilanSil/@item.Id" data-toggle="tooltip" data-placement="top" title="" class="delete" data-original-title="Delete Property"><i class="ti-close"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						}
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,14 @@
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\bin\Debug\net8.0\RealEstate.Services.deps.json
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\bin\Debug\net8.0\RealEstate.Services.runtimeconfig.json
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\bin\Debug\net8.0\RealEstate.Services.dll
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\bin\Debug\net8.0\RealEstate.Services.pdb
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\RealEstate.Services.csproj.AssemblyReference.cache
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\RealEstate.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\RealEstate.Services.AssemblyInfoInputs.cache
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\RealEstate.Services.AssemblyInfo.cs
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\RealEstate.Services.csproj.CoreCompileInputs.cache
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\RealEstate.Services.dll
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\refint\RealEstate.Services.dll
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\RealEstate.Services.pdb
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\RealEstate.Services.genruntimeconfig.cache
+C:\Users\Enes\Desktop\Projects\RealEstate\RealEstate.Services\obj\Debug\net8.0\ref\RealEstate.Services.dll

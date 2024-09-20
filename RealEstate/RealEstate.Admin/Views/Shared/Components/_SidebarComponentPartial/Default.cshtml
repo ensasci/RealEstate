@@ -1,0 +1,37 @@
+﻿<div class="db-sidebar bg-body">
+    <aside class="navbar navbar-expand-xl navbar-light d-block px-0 header-sticky dashboard-nav py-0">
+        <div class="sticky-area border-right">
+            <div class="d-flex px-6 px-xl-10 w-100 border-bottom py-7 justify-content-between">
+                <a href="/" class="navbar-brand py-4"><img class="light-mode-img" src="https://www.evpower.com.tr/img/logo.png" width="179" height="26" alt="Glowing - Bootstrap 5 HTML Templates"><img class="dark-mode-img" src="https://www.evpower.com.tr/img/logo.png" width="179" height="26" alt="Glowing - Bootstrap 5 HTML Templates"></a>
+                <div class="ml-auto d-flex align-items-center ">
+                    <div class="d-flex align-items-center d-xl-none">
+                        <div class="dropdown no-caret py-4 px-3 d-flex align-items-center notice me-6">
+                        </div>
+                    </div><button class="navbar-toggler border-0 px-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryMenuSidebar" aria-controls="primaryMenuSidebar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse bg-body position-relative z-index-5" id="primaryMenuSidebar">
+                <ul class="list-group list-group-flush list-group-no-border w-100 p-6">
+                    <li class="list-group-item px-0 py-0 sidebar-item mb-3 border-0"><a href="/home/index" class="text-heading text-decoration-none lh-1 sidebar-link py-5 px-6 d-flex align-items-center" title="Dashboard"><span class="sidebar-item-icon w-40px d-inline-block text-muted"><i class="fas fa-home-lg-alt"></i></span><span class="sidebar-item-text fs-14px fw-semibold">Özet</span></a></li>
+                    <li class="list-group-item px-0 py-0 sidebar-item mb-3 has-children border-0">
+                        <a href="#sellers" class="text-heading text-decoration-none lh-1 d-flex sidebar-link align-items-center py-5 px-6 position-relative" data-bs-toggle="collapse" aria-expanded="false" title="Sellers"><span class="sidebar-item-icon d-inline-block w-40px text-muted"><i class="fas fa-users"></i></span><span class="sidebar-item-text fs-14px fw-semibold">Kullanıcı Yönetimi</span><span class="position-absolute top-50 end-5 translate-middle-y"><i class="far fa-angle-down"></i></span></a>
+                        <div class="collapse menu-collapse" id="sellers">
+                            <ul class="sub-menu list-unstyled">
+                                <li class="sidebar-item"><a class="sidebar-link pe-5 ps-8 py-5 lh-1 text-decoration-none fs-14px fw-semibold" href="/kullanici/kullaniciOlustur" title="Sellers Cards">Admin Ekle</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link pe-5 ps-8 py-5 lh-1 text-decoration-none fs-14px fw-semibold" href="/kullanici/tumKullanicilar" title="Sellers List">Kullanıcı Listesi</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item px-0 py-0 sidebar-item mb-3 has-children border-0">
+                        <a href="#transaction" class="text-heading text-decoration-none lh-1 d-flex sidebar-link align-items-center py-5 px-6 position-relative" data-bs-toggle="collapse" aria-expanded="false" title="Transactions"><span class="sidebar-item-icon d-inline-block w-40px text-muted"><i class="fas fa-circle-dollar-to-slot"></i></span><span class="sidebar-item-text fs-14px fw-semibold">İlan İşlemleri</span><span class="position-absolute top-50 end-5 translate-middle-y"><i class="far fa-angle-down"></i></span></a>
+                        <div class="collapse menu-collapse" id="transaction">
+                            <ul class="sub-menu list-unstyled">
+                                <li class="sidebar-item"><a class="sidebar-link pe-5 ps-8 py-5 lh-1 text-decoration-none fs-14px fw-semibold" href="/ilan/tumilanlar" title="Transactions 1">İlan Listesi</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+</div>

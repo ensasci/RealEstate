@@ -1,0 +1,68 @@
+﻿@using RealEstate.Admin.Models.User
+@model UserListViewModel
+@{
+	ViewData["Title"] = "Kullanıcılar";
+}
+<div class="row mb-9 align-items-center justify-content-between">
+	<div class="col-sm-6 mb-8 mb-sm-0">
+		<h2 class="fs-4 mb-0">Kullanıcı Yönetimi</h2>
+		<p class="mb-0">Kullanıcı Listesi.</p>
+	</div>
+</div>
+
+<div class="card mb-4 rounded-4 p-7">
+	<div class="card-body p-0">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card-body px-0 pt-7 pb-0">
+					<div class="table-responsive">
+						<table id="userList" class="display">
+							<thead>
+								<tr>
+									<th>Kullanıcı No</th>
+									<th>Adı Soyadı</th>
+									<th>Mail Adresi</th>
+									<th>Telefon Numarası</th>
+									<th>Durumu</th>
+									<th>Aksiyon</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@foreach (var item in Model.Users)
+								{
+									<tr>
+
+										<td>@item.Id</td>
+										<td>@item.FullName</td>
+										<td>@item.Email</td>
+										<td>@item.Phone</td>
+										@if (item.UserType == 0)
+										{
+											<td>
+												<span class="badge rounded-lg badge-soft-warning border-0 text-capitalize fs-12">Üye</span>
+											</td>
+										}
+										else
+										{
+											<td>
+												<span class="badge rounded-lg badge-soft-success border-0 text-capitalize fs-12">Admin</span>
+											</td>
+										}
+										<td class="text-center py-0 align-middle">
+											<div class="btn-group btn-group-sm">
+												<a href="/kullanici/kullaniciDetay/@item.Id" name="id" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+											</div>
+										</td>
+									</tr>
+								}
+							</tbody>
+						</table>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,51 @@
+﻿@using RealEstate.Web.Models.User.Advert
+@model FavoriteAdvertListViewModel
+<section>
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-lg-3 col-md-4">
+				@Html.Partial("UserMenuPartial", new RealEstate.Web.Models.Header.UserMenuViewModel());
+			</div>
+
+			<div class="col-lg-9 col-md-8">
+				<div class="dashboard-wraper">
+
+					<!-- Bookmark Property -->
+					<div class="form-submit">
+						<h4>Toplamda @Model.Count adet favori ilanınız mevcut</h4>
+					</div>
+
+					<table class="property-table-wrap responsive-table bkmark">
+						<tbody>
+							<tr>
+								<th><i class="fa fa-file-text"></i> Favori İlanlarım</th>
+								<th></th>
+							</tr>
+
+							<!-- Item #1 -->
+							@foreach (var item in Model.FavoriteAdverts)
+							{
+								<tr>
+									<td class="property-container">
+										<img src="~/img/img_1.jpg" alt="">
+										<div class="title">
+											<h4><a href="/ilanlar/ilanDetay/@item.AdvertId">@item.Title</a></h4>
+											<span>@item.Adress. @item.County, @item.Town</span>
+											<span class="table-property-price">@item.Price ₺</span>
+										</div>
+									</td>
+									<td class="action">
+										<a href="/ilanlar/favoriSil/@item.Id" class="delete"><i class="ti-close"></i> Sil</a>
+									</td>
+								</tr>
+							}
+						</tbody>
+					</table>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>

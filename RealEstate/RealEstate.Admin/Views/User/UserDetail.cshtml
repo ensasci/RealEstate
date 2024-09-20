@@ -1,0 +1,140 @@
+﻿@using RealEstate.Admin.Models.User
+@model UserDetailModel
+@{
+	ViewData["Title"] = "Kullanıcı Detayı";
+}
+<div class="row">
+	<!-- User Sidebar -->
+	<div class="card mb-5 rounded-4 card-brand">
+		<div class="card-header p-15" style="background-color: #B88539"></div>
+		<div class="card-body p-7">
+			<div class="row">
+				<div class="col-xl col-lg flex-grow-0 mb-xl-0 mb-7" style="flex-basis: 230px">
+					<div class="img-thumbnail shadow w-100 bg-body position-relative text-center mt-n20 py-3 px-4">
+						<img class="img-fluid loaded" src="~/assets/images/dashboard/avatar-1.png" data-src="../assets/images/dashboard/avatar-1.png" alt="Logo Brand" width="180" height="180" loading="lazy" data-ll-status="loaded">
+					</div>
+				</div>
+
+				<div class="col-xl col-lg">
+					<h3 class="fs-4 mb-0">@Model.FullName</h3>
+				</div>
+			</div>	
+
+			<hr class="my-7">
+			<div class="row">
+				<div class="col-md-12 col-lg-4 col-xl-2 mb-8 mb-lg-0">
+					<article class="border p-6 rounded">
+						<p class="mb-0 text-muted">Toplam ilan:</p>
+						<h5 class="text-success">@Model.UserAdverts.Count</h5>
+						<p class="mb-0 text-muted">Aktif İlan:</p>
+						<h5 class="text-success mb-0">@Model.UserAdverts.Count(x => x.ApproveStatus == RealEstate.Services.EntityFramework.Entities.ApproveStatus.Active)</h5>
+					</article>
+				</div>
+
+				<div class="col-sm-6 col-lg-4 col-xl-3 mb-sm-0 mb-7">
+					<h6 class="fs-18px mb-4">İletişim</h6>
+					<p class="mb-0">
+						Ad Soyad:@Model.FullName <br>
+						@Model.Email<br>
+						@Model.Phone
+					</p>
+				</div>
+
+				<div class="col-sm-6 col-lg-4 col-xl-3">
+					
+				</div>
+
+				<div class="col-sm-6 col-xl-4 text-xl-right d-flex align-items-center mt-xl-0 mt-7 justify-content-xl-end">
+					<div class="mapbox position-relative d-inline-block">
+						<img src="~/assets/images/dashboard/map.jpg" class="rounded" height="120" alt="map">
+						<span class="map-pin" style="top: 50px; left: 100px"></span>
+						<button class="btn btn-sm btn-primary position-absolute bottom-0 end-0 mb-6 me-6 fs-12px">Large</button>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!--/ User Content -->
+	<div class="card mb-4 rounded-4 p-7">
+		<div class="card-body p-0">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card-body px-0 pt-7 pb-0">
+						<div class="table-responsive">
+							<table id="userAdvertList" class="display">
+								<thead>
+									<tr>
+										<th>İlan No</th>
+										<th>Başlık</th>
+										<th>Fiyat</th>
+										<th>Adres</th>
+										<th>İlçe</th>
+										<th>İl</th>
+										<th>Durumu</th>
+										<th>Aksiyon</th>
+									</tr>
+								</thead>
+								<tbody>
+
+									@foreach (var item in Model.UserAdverts)
+									{
+										<tr>
+
+											<td>@item.Id</td>
+											<td>@item.Title</td>
+											<td>@item.Price</td>
+											<td>@item.Adress</td>
+											<td>@item.Town</td>
+											<td>@item.County</td>
+											@if (item.ApproveStatus == RealEstate.Services.EntityFramework.Entities.ApproveStatus.Pending)
+											{
+												<td>
+													<span class="badge rounded-lg badge-soft-warning border-0 text-capitalize fs-12">Onay Bekliyor</span>
+												</td>
+											}
+											@if (item.ApproveStatus == RealEstate.Services.EntityFramework.Entities.ApproveStatus.Active)
+											{
+												<td>
+													<span class="badge rounded-lg badge-soft-success border-0 text-capitalize fs-12">Onaylandı</span>
+												</td>
+											}
+											@if (item.ApproveStatus == RealEstate.Services.EntityFramework.Entities.ApproveStatus.Inactive)
+											{
+												<td>
+													<span class="badge rounded-lg badge-soft-danger border-0 text-capitalize fs-12">Onaylanmadı</span>
+												</td>
+											}
+											@if (item.ApproveStatus == RealEstate.Services.EntityFramework.Entities.ApproveStatus.Pasif)
+											{
+												<td>
+													<span class="badge rounded-lg badge-soft-danger border-0 text-capitalize fs-12">Pasif</span>
+												</td>
+											}
+											<td class="text-center py-0 align-middle">
+												<div class="dropdown no-caret">
+													<a href="#" data-bs-toggle="dropdown" class="dropdown-toggle btn btn-outline-primary btn-xs hover-white btn-hover-bg-primary py-4 px-5">
+														<i class="far fa-ellipsis-h"></i>
+													</a>
+													<div class="dropdown-menu dropdown-menu-end m-0">
+														<a class="dropdown-item" href="/ilan/ilandetayi/@item.Id">Detayı Görüntüle</a>
+														<a class="dropdown-item" href="/ilan/ilanGuncelle/@item.Id/1 ">Onayla</a>
+														<a class="dropdown-item text-danger" href="/ilan/ilanGuncelle/@item.Id/2">Sil</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+									}
+								</tbody>
+							</table>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
